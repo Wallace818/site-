@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KPMW - Soluções Elétricas para Infraestrutura de Carregadores de Carros Elétricos">
+    <title>KPMW - Infraestrutura de Carregadores</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #ffffff;
+            background: #0d0d0d;
+        }
+
+        header {
+            background-color: #121212;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #00ffcc;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2rem;
+            color: #00ffcc;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00ffcc;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: url('https://source.unsplash.com/1920x1080/?electric-vehicle,infrastructure') no-repeat center center/cover;
+            color: #ffffff;
+            box-shadow: inset 0px -4px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+        }
+
+        .cta {
+            margin-top: 30px;
+        }
+
+        .cta a {
+            text-decoration: none;
+            color: #121212;
+            background-color: #00ffcc;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .cta a:hover {
+            background-color: #00d6b3;
+        }
+
+        section {
+            padding: 70px 20px;
+            text-align: center;
+            background: #1a1a1a;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        section h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #00ffcc;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+        }
+
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .blog {
+            padding: 70px 20px;
+            background-color: #121212;
+        }
+
+        .blog .post {
+            margin: 20px auto;
+            max-width: 800px;
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .blog .post h4 {
+            font-size: 1.8rem;
+            color: #00ffcc;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #121212;
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+            border-top: 2px solid #00ffcc;
+        }
+
+        footer p {
+            font-size: 1rem;
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KPMW</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Construindo o Futuro da Mobilidade Elétrica</h2>
+        <p>Infraestrutura elétrica de ponta para carregadores de veículos elétricos.</p>
+        <div class="cta">
+            <a href="#contato">Fale Conosco</a>
+        </div>
+    </div>
+
+    <section id="sobre">
+        <h3>Sobre Nós</h3>
+        <p>A KPMW é especialista em soluções elétricas inovadoras, focadas em criar infraestrutura segura e eficiente para carregadores de veículos elétricos, promovendo um futuro sustentável.</p>
+    </section>
+
+    <section id="servicos">
+        <h3>Nossos Serviços</h3>
+        <p>Oferecemos instalação, manutenção e consultoria em sistemas elétricos para suportar redes de carregamento de veículos elétricos em residências, empresas e espaços públicos.</p>
+    </section>
+
+    <section id="blog" class="blog">
+        <h3>Blog</h3>
+        <div class="post">
+            <h4>Avanços na Infraestrutura de Carregadores</h4>
+            <p>Hoje discutimos as novas tecnologias que estão revolucionando a infraestrutura de carregadores para veículos elétricos.</p>
+        </div>
+        <div class="post">
+            <h4>Como Escolher o Carregador Certo</h4>
+            <p>Descubra os principais fatores a considerar ao escolher um carregador de veículos elétricos para sua residência ou empresa.</p>
+        </div>
+        <div class="post">
+            <h4>Notícias do Setor Elétrico</h4>
+            <p>Fique por dentro das últimas novidades e regulamentações no setor de energia elétrica e mobilidade sustentável.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h3>Contato</h3>
+        <p>Entre em contato conosco para saber mais sobre nossos serviços e como podemos ajudar na sua transição para a mobilidade elétrica.</p>
+        <p>Email: victormendes@gmail.com | Telefone: +55 79999178586</p>
+        <p><a href="https://www.youtube.com/" style="color: #00ffcc;">Clique aqui para WhatsApp</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 KPMW. Todos os direitos reservados.</p>
+        <p>Desenvolvido para o futuro da mobilidade elétrica.</p>
+    </footer>
+</body>
+</html>
